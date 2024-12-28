@@ -1,3 +1,4 @@
+@import url("./media-query.css");
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ body{
     background-color: white;
     margin-bottom: 4rem;
     /* position: sticky;
-    top: 0; */
+    top: 0;  */
 }
 .navtitle{
     /* margin: 1rem;  */
@@ -46,7 +47,7 @@ body{
  .allright{
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    align-items: flex-start;
     margin: 2rem;
     cursor: default;
     /* background-color: blue; */
@@ -108,7 +109,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     justify-content: space-between;
-    gap: 1rem;
+    /* gap: 1rem; */
   } 
     
  .card {
@@ -121,6 +122,7 @@ body{
     padding: 0;
     text-align: center;
     margin-bottom: 20px;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
 }
 
 .card img {
@@ -166,11 +168,19 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     text-align: start;
+    margin: 1rem;
+    padding: 0;
 }
+
 .watch{
     display: flex;
     flex-direction: row;
+    margin: 1rem;
+    padding: 0;
 }
-.content{
+.order{
     margin: 10px;
+}
+.allright{
+    flex-wrap: wrap;
 }
