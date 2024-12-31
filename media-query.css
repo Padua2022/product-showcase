@@ -72,11 +72,20 @@
         text-align: center;
     }
 }
-@media screen and (min-width: 400px){
+@media screen and (min-width: 800px){
     main section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
         padding: 0;
+    }
+    .card{
+        margin: 2rem;
+        padding: 0;
+        text-align: center;
+        display: grid;
+        justify-content: space-between;
+        gap: 1em;
+        border-radius: 0;
     }
 }
